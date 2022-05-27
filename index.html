@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Web Portfolio</title>
+	</head>
+	<body>
+		<!-- Header Start -->
+		<header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 scroll-smooth">
+			<div class="container py-5 px-4 lg:px-20 lg:py-0">
+				<div class="flex items-center justify-between relative">
+					<div class="px-4 hover:text-[#25F860]">
+						<a href="#home" class="py-6 font-medium lg:text-xl"> Faris </a>
+						<a href="#home" class="py-6 text-tema font-normal lg:text-xl lg:font-medium"> Fadhail </a>
+					</div>
+					<div class="flex items-center px-4">
+						<button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+							<span class="hamburger-line origin-top-left"></span>
+							<span class="hamburger-line origin-left"></span>
+							<span class="hamburger-line origin-bottom-left"></span>
+						</button>
+
+						<nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+							<ul class="block lg:flex">
+								<li class="group flex lg:mx-8">
+									<a href="#home" class="text-base text-tema px-4 py-2">1. </a>
+									<a href="#home" class="text-base text-dark py-2 group-hover:text-[#25F860]">Home</a>
+								</li>
+								<li class="group flex lg:mx-8">
+									<a href="#about" class="text-base text-tema px-4 py-2">2. </a>
+									<a href="#about" class="text-base text-dark py-2 group-hover:text-[#25F860]">About</a>
+								</li>
+								<li class="group flex lg:mx-8">
+									<a href="#project" class="text-base text-tema px-4 py-2">3. </a>
+									<a href="#project" class="text-base text-dark py-2 group-hover:text-[#25F860]">Project</a>
+								</li>
+								<li class="group flex lg:mx-8 lg:right-60">
+									<a href="#contact" class="text-base text-tema px-4 py-2">4. </a>
+									<a href="#contact" class="text-base text-dark py-2 group-hover:text-[#25F860]">Contact</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Header End -->
+
+		<script src="./src/js/script.js"></script>
+	</body>
+</html>
