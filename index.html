@@ -7,12 +7,12 @@
 		<link rel="stylesheet" href="./style.css" />
 		<title>Web Portfolio</title>
 	</head>
-	<body>
-		<!-- Header Start -->
+	<body class="bg-latar">
+		<!-- Navbar Start -->
 		<header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 scroll-smooth">
 			<div class="container py-5 px-4 lg:px-20 lg:py-0">
 				<div class="flex items-center justify-between relative">
-					<div class="px-4 hover:text-[#25F860]">
+					<div class="px-4 hover:text-[#25F860] transition duration-300 ease-in-out">
 						<a href="#home" class="py-6 font-medium lg:text-xl"> Faris </a>
 						<a href="#home" class="py-6 text-tema font-normal lg:text-xl lg:font-medium"> Fadhail </a>
 					</div>
@@ -25,19 +25,19 @@
 
 						<nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
 							<ul class="block lg:flex">
-								<li class="group flex lg:mx-8">
+								<li class="group flex lg:mx-4">
 									<a href="#home" class="text-base text-tema px-4 py-2">1. </a>
 									<a href="#home" class="text-base text-dark py-2 group-hover:text-[#25F860]">Home</a>
 								</li>
-								<li class="group flex lg:mx-8">
+								<li class="group flex lg:mx-4">
 									<a href="#about" class="text-base text-tema px-4 py-2">2. </a>
 									<a href="#about" class="text-base text-dark py-2 group-hover:text-[#25F860]">About</a>
 								</li>
-								<li class="group flex lg:mx-8">
+								<li class="group flex lg:mx-4">
 									<a href="#project" class="text-base text-tema px-4 py-2">3. </a>
 									<a href="#project" class="text-base text-dark py-2 group-hover:text-[#25F860]">Project</a>
 								</li>
-								<li class="group flex lg:mx-8 lg:right-60">
+								<li class="group flex lg:mx-4">
 									<a href="#contact" class="text-base text-tema px-4 py-2">4. </a>
 									<a href="#contact" class="text-base text-dark py-2 group-hover:text-[#25F860]">Contact</a>
 								</li>
@@ -47,7 +47,23 @@
 				</div>
 			</div>
 		</header>
-		<!-- Header End -->
+		<!-- Navbar End -->
+
+		<!-- Hero Section Start -->
+		<section id="home" class="pt-36 md:pt-52">
+			<div class="md:container">
+				<div class="flex flex-wrap m-auto">
+					<div class="w-full self-center px-4">
+						<h1 class="text-base font-medium text-tema md:text-lg lg:text-lg">Hi, Everyone. My name is <span class="block font-bold text-dark text-4xl mb-2 md:text-5xl lg:text-5xl blinking-cursor">Achmad Faris Fadhail.</span></h1>
+						<p class="font-normal text-slate-500 mb-8 leading-relaxed md:pr-96">I'm a Software Developer specializing in building a website. I'm focused on Back-End Engineer and understanding Front-End Engineer.</p>
+
+						<a href="#about" class="text-base font-semibold text-tema border-solid border-2 border-tema py-3 px-8 rounded-full hover:text-white hover:bg-tema transition duration-300 ease-in-out">About Me</a>
+					</div>
+					<div></div>
+				</div>
+			</div>
+		</section>
+		<!-- Hero Section End -->
 
 		<script src="./src/js/script.js"></script>
 	</body>
