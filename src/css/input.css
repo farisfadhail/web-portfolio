@@ -23,3 +23,11 @@
 .hamburger-active > span:nth-child(3) {
 	@apply origin-bottom-left -rotate-45;
 }
+
+.garis {
+	border: 0.5px solid #23e537;
+}
+
+body {
+	font-family: "Poppins";
+}
